@@ -1,0 +1,23 @@
+# Entorno virtual
+.venv/
+
+# Datos (se descargan de Kaggle; ver README)
+data/*.csv
+
+# Intermedios de la exportación (los modelos finales sí se suben)
+modelos/saved_model/
+modelos/*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+*~
+
+# Documentos internos de trabajo del equipo
+*.docx
